@@ -1,0 +1,49 @@
+@import url(reset.css);
+
+
+/*//SPLASH PAGE*/
+@font-face {
+  font-family:"FuturaStd-Medium";
+  src: url("css/fonts/FuturaStd-Medium.eot"); 
+  src: url("css/fonts/FuturaStd-Medium.woff") format("woff"),
+       url("css/fonts/FuturaStd-Medium.woff2") format("woff2"),
+       url("css/fonts/FuturaStd-Medium.otf") format("opentype"),
+       url("css/fonts/FuturaStd-Medium.svg#filename") format("svg");
+
+}
+
+.center {
+  position: absolute;
+  top:50%;
+  left:40%;
+  transform: translate (-50%, -50%);
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.center ul li a {
+  list-style: none;
+  border: 5px solid #f2f2f2;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px;
+  border-radius: 5px;
+  font-family: 'FuturaStd-Medium', sans-serif;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 5px 30px;
+}
+
+.center ul li:nth-child(1):hover a{
+  box-shadow: 0px 0px 10px rgb(255,255,255,0.5), 0px 0px 10px rgb(255,255,255,0.5);
+  background-color: #f99c85;
+
+}
+
+
+
+
